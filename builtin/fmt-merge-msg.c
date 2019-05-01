@@ -420,7 +420,7 @@ static void fmt_merge_msg_title(struct strbuf *out,
 	int i = 0;
 	char *sep = "";
 
-	strbuf_addstr(out, "Merge ");
+	strbuf_addstr(out, "Merged ");
 	for (i = 0; i < srcs.nr; i++) {
 		struct src_data *src_data = srcs.items[i].util;
 		const char *subsep = "";
